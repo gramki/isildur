@@ -1,0 +1,64 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.16.custom.css">
+	<style>
+		#feedback { font-size: 1.4em; }
+		.ui-selecting { background: #FECA40; }
+		.ui-selected { background: #F39814; color: white; }
+		.navigablelist { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+		.navigablelist li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }
+		.ui-sortable-tomove { border: 2px dashed #4444bb;}
+		ul {
+			background-color: #dadada;
+			min-height: 25px;
+		}
+		div.wrapper {
+			padding: 10px 5px;
+			border: 4px double red;
+			float: left;
+			width: 250px;
+		}
+		ul.droptraget {
+			border: 6px solid red;			
+		}
+	</style>
+</head>
+<body>
+	<div class='wrapper'>
+	<ul id='selectable1' class='navigablelist'>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+		<li>Five</li>
+		<li>Six</li>
+	</ul>
+	</div>
+	<div class='wrapper'>
+	<ul id='selectable2' class='navigablelist'>
+		<li>2 One</li>
+		<li>2 Two</li>
+		<li>2 Three</li>
+		<li>2 Four</li>
+		<li>2 Five</li>
+		<li>2 Six</li>
+	</ul>
+	</div>
+	<div id='status'>
+	</div>
+</body>
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="js/navigablelist.js"></script>
+<script>
+
+	$(
+		function(){
+			$('#selectable1').navigablelist();
+			$('#selectable2').navigablelist();
+			$('#selectable1').navigablelist('option', 'rightList', $('#selectable2'));
+			$('#selectable2').navigablelist('option', 'leftList', $('#selectable1'));
+		}
+	)
+</script>
+</html>
