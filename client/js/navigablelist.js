@@ -11,16 +11,26 @@
             leftList: null,
             rightList: null,
             topList: null,
-            bottomList: null
+            bottomList: null,
+			shouldCopy: false
         },
         _setOption: function(key, value) {
             var list;
-			list = $(value).data('navigablelist');
-			if(list === this){
-				console.error('attempt to set a list ' + key + ' as itself', list);
-				return;
+			switch(key){
+				case 'leftList':
+				case 'rightList':
+				case 'bottomList':
+				case 'topList':
+					list = $(value).data('navigablelist');
+					if(list === this){
+						console.error('attempt to set a list ' + key + ' as itself', list);
+						return;
+					}
+					this[key] = list;
+					return;
+					break;
 			}
-            this[key] = list;
+			this[key] = value;
         },
         _create: function() {
             console.log("navigablelist _create called: " + (++_create_count), this.element);
@@ -152,7 +162,8 @@
             if (!elements.length) {
                 return;
             }
-			console.log('Moving ', elements, ' to ', targetList.element);
+			var copy = this.shouldCopy?true:false;
+			console.log(copy?'Copying':'Moving ', elements, ' to ', targetList.element);
 			var ch = targetList.element.children();
 			if (!ch.length) {
 				$(targetList.element).append('<li id="navigablelist-temp"></li>');
@@ -163,9 +174,15 @@
 				elements = elements.toArray().reverse();
 			}
 			console.log('Reference Element', refElement);
+			
 			$.each(elements, function(index, el){
-				before?$(el).insertBefore(refElement):$(el).insertAfter(refElement);
+				if(copy){
+					before?$(el).clone().insertBefore(refElement):$(el).clone().insertAfter(refElement);					
+				}else{
+					before?$(el).insertBefore(refElement):$(el).insertAfter(refElement);					
+				}
 			});
+			
 			$('#navigablelist-temp').remove();
 			this._setActiveElement(null);
 			targetList._setActiveElement(before?elements[0]:elements[elements.length-1]);

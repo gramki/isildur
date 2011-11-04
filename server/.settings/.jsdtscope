@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="node_modules/deferred/node_modules/es5-ext/test/Object/|setup/node_modules/ndb/spec/jspec/templates/node/spec/unit/|node_modules/deferred/node_modules/es5-ext/lib/|setup/node_modules/deferred/node_modules/es5-ext/test/Date/year/|setup/node_modules/deferred/test/|node_modules/deferred/node_modules/es5-ext/test/|setup/node_modules/deferred/node_modules/es5-ext/lib-bug/Object/defineProperty/|setup/node_modules/deferred/node_modules/es5-ext/lib/Date/month/|node_modules/deferred/lib/join/|node_modules/deferred/node_modules/es5-ext/test/Number/|node_modules/deferred/node_modules/es5-ext/lib/Object/plain/|setup/node_modules/ndb/spec/jspec/templates/rails/unit/|setup/node_modules/deferred/node_modules/es5-ext/test/Function/|setup/node_modules/ndb/spec/|setup/node_modules/deferred/node_modules/clock/test/|lib/|setup/node_modules/deferred/node_modules/es5-ext/test/Object/plain/|node_modules/deferred/lib/|setup/node_modules/deferred/node_modules/es5-ext/test/Date/day/|setup/node_modules/deferred/node_modules/es5-ext/test/List/sort/|setup/node_modules/ndb/lib/ndb/|setup/node_modules/ndb/spec/underscore/test/|node_modules/deferred/node_modules/es5-ext/test/String/|node_modules/deferred/node_modules/es5-ext/lib/Date/year/|setup/|setup/node_modules/deferred/node_modules/es5-ext/test/|setup/node_modules/ndb/spec/jspec/templates/default/spec/unit/|setup/node_modules/ndb/spec/jspec/spec/unit/|node_modules/deferred/node_modules/es5-ext/test/List/|node_modules/deferred/test/|setup/node_modules/deferred/node_modules/es5-ext/lib/List/sort/|node_modules/deferred/node_modules/es5-ext/test/Function/|setup/node_modules/ndb/spec/jspec/spec/|setup/node_modules/ndb/spec/unit/|node_modules/deferred/node_modules/es5-ext/lib/Function/|node_modules/couch-client/|node_modules/deferred/node_modules/es5-ext/lib/Date/|node_modules/deferred/node_modules/es5-ext/test/List/sort/|setup/node_modules/deferred/node_modules/clock/lib/|node_modules/deferred/node_modules/es5-ext/test/Array/|setup/node_modules/deferred/node_modules/es5-ext/lib/String/convert/|node_modules/deferred/node_modules/es5-ext/test/Date/day/|node_modules/deferred/node_modules/es5-ext/test/Date/|node_modules/deferred/node_modules/es5-ext/lib-bug/Object/defineProperty/|setup/node_modules/deferred/node_modules/es5-ext/test/Array/|setup/node_modules/ndb/spec/jspec/templates/default/lib/|setup/node_modules/deferred/node_modules/es5-ext/test/String/convert/|setup/node_modules/deferred/node_modules/es5-ext/lib/Function/|node_modules/deferred/node_modules/es5-ext/lib/List/sort/|setup/node_modules/ndb/spec/espionage/lib/|node_modules/deferred/node_modules/clock/lib/|setup/node_modules/deferred/node_modules/es5-ext/test/Date/|node_modules/deferred/node_modules/clock/node_modules/event-emitter/lib/|setup/node_modules/ndb/spec/fixtures/|setup/node_modules/ndb/spec/underscore/test/vendor/|setup/node_modules/deferred/node_modules/es5-ext/lib/Date/year/|setup/node_modules/ndb/spec/jspec/templates/rails/|setup/node_modules/deferred/test/join/|setup/node_modules/deferred/node_modules/es5-ext/lib/Date/day/|node_modules/deferred/node_modules/es5-ext/test/Date/year/|setup/node_modules/ndb/spec/jspec/templates/node/lib/|setup/node_modules/ndb/spec/espionage/spec/|node_modules/deferred/node_modules/es5-ext/lib/Number/|node_modules/deferred/node_modules/es5-ext/test/Object/plain/|setup/node_modules/deferred/node_modules/es5-ext/test/String/|setup/node_modules/deferred/node_modules/es5-ext/lib/Object/|node_modules/deferred/test/join/|node_modules/deferred/node_modules/es5-ext/lib/String/|setup/node_modules/ndb/spec/jspec/lib/|node_modules/deferred/node_modules/es5-ext/lib/Date/day/|setup/node_modules/deferred/node_modules/clock/node_modules/event-emitter/lib/|setup/node_modules/couch-client/|setup/node_modules/deferred/node_modules/es5-ext/test/List/|node_modules/deferred/node_modules/clock/node_modules/event-emitter/test/|setup/node_modules/ndb/spec/jspec/spec/support/|setup/node_modules/ndb/spec/jspec/templates/node/spec/|setup/node_modules/couch-client/lib/|node_modules/deferred/node_modules/es5-ext/test/String/convert/|node_modules/deferred/node_modules/es5-ext/lib/List/|node_modules/deferred/node_modules/es5-ext/lib/Object/|setup/node_modules/ndb/spec/jspec_dot_reporter/|setup/node_modules/ndb/spec/jspec/templates/default/spec/|setup/node_modules/deferred/node_modules/clock/node_modules/event-emitter/test/|setup/node_modules/deferred/node_modules/es5-ext/test/Object/|setup/node_modules/deferred/node_modules/es5-ext/lib/Array/|node_modules/couch-client/lib/|setup/node_modules/deferred/node_modules/es5-ext/lib/Number/|setup/node_modules/deferred/lib/|node_modules/deferred/node_modules/es5-ext/lib/String/convert/|setup/node_modules/deferred/node_modules/es5-ext/test/Number/|setup/node_modules/ndb/spec/unit/event_listeners/|setup/node_modules/ndb/lib/|node_modules/deferred/node_modules/es5-ext/lib/Date/month/|setup/node_modules/ndb/lib/ndb/commands/|setup/node_modules/ndb/spec/underscore/|setup/node_modules/deferred/node_modules/es5-ext/lib/|setup/node_modules/deferred/node_modules/es5-ext/test/Date/month/|setup/node_modules/deferred/node_modules/es5-ext/lib/List/|setup/node_modules/deferred/lib/join/|setup/node_modules/ndb/spec/unit/option_parser/|setup/node_modules/deferred/node_modules/es5-ext/lib/Object/plain/|node_modules/deferred/node_modules/clock/test/|node_modules/deferred/node_modules/es5-ext/test/Date/month/|setup/node_modules/ndb/lib/vendor/js-opts/|setup/node_modules/ndb/spec/unit/commands/|node_modules/deferred/node_modules/es5-ext/lib/Array/|setup/node_modules/deferred/node_modules/es5-ext/lib/String/|setup/node_modules/ndb/spec/espionage/spec/espionage/|setup/node_modules/deferred/node_modules/es5-ext/lib/Date/" kind="src" path=""/>
+	<classpathentry kind="src" path="lib"/>
+	<classpathentry excluding="lib/" kind="src" path="node_modules/couch-client"/>
+	<classpathentry kind="src" path="node_modules/couch-client/lib"/>
+	<classpathentry excluding="join/" kind="src" path="node_modules/deferred/lib"/>
+	<classpathentry kind="src" path="node_modules/deferred/lib/join"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/clock/lib"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/clock/node_modules/event-emitter/lib"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/clock/node_modules/event-emitter/test"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/clock/test"/>
+	<classpathentry excluding="Object/plain/|Date/year/|Function/|Date/|List/sort/|Number/|String/|Date/day/|List/|Object/|String/convert/|Date/month/|Array/" kind="src" path="node_modules/deferred/node_modules/es5-ext/lib"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib-bug/Object/defineProperty"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Array"/>
+	<classpathentry excluding="year/|day/|month/" kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Date"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Date/day"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Date/month"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Date/year"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Function"/>
+	<classpathentry excluding="sort/" kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/List"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/List/sort"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Number"/>
+	<classpathentry excluding="plain/" kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Object"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/Object/plain"/>
+	<classpathentry excluding="convert/" kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/String"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/lib/String/convert"/>
+	<classpathentry excluding="Object/|Number/|String/|List/|Function/|List/sort/|Array/|Date/day/|Date/|Date/year/|Object/plain/|String/convert/|Date/month/" kind="src" path="node_modules/deferred/node_modules/es5-ext/test"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Array"/>
+	<classpathentry excluding="day/|year/|month/" kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Date"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Date/day"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Date/month"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Date/year"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Function"/>
+	<classpathentry excluding="sort/" kind="src" path="node_modules/deferred/node_modules/es5-ext/test/List"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/List/sort"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Number"/>
+	<classpathentry excluding="plain/" kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Object"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/Object/plain"/>
+	<classpathentry excluding="convert/" kind="src" path="node_modules/deferred/node_modules/es5-ext/test/String"/>
+	<classpathentry kind="src" path="node_modules/deferred/node_modules/es5-ext/test/String/convert"/>
+	<classpathentry excluding="join/" kind="src" path="node_modules/deferred/test"/>
+	<classpathentry kind="src" path="node_modules/deferred/test/join"/>
+	<classpathentry excluding="node_modules/ndb/spec/jspec/templates/node/spec/unit/|node_modules/deferred/node_modules/es5-ext/test/Date/year/|node_modules/deferred/test/|node_modules/deferred/node_modules/es5-ext/lib-bug/Object/defineProperty/|node_modules/deferred/node_modules/es5-ext/lib/Date/month/|node_modules/ndb/spec/jspec/templates/rails/unit/|node_modules/deferred/node_modules/es5-ext/test/Function/|node_modules/ndb/spec/|node_modules/deferred/node_modules/clock/test/|node_modules/deferred/node_modules/es5-ext/test/Object/plain/|node_modules/deferred/node_modules/es5-ext/test/Date/day/|node_modules/deferred/node_modules/es5-ext/test/List/sort/|node_modules/ndb/lib/ndb/|node_modules/ndb/spec/underscore/test/|node_modules/deferred/node_modules/es5-ext/test/|node_modules/ndb/spec/jspec/templates/default/spec/unit/|node_modules/ndb/spec/jspec/spec/unit/|node_modules/deferred/node_modules/es5-ext/lib/List/sort/|node_modules/ndb/spec/jspec/spec/|node_modules/ndb/spec/unit/|node_modules/deferred/node_modules/clock/lib/|node_modules/deferred/node_modules/es5-ext/lib/String/convert/|node_modules/deferred/node_modules/es5-ext/test/Array/|node_modules/ndb/spec/jspec/templates/default/lib/|node_modules/deferred/node_modules/es5-ext/test/String/convert/|node_modules/deferred/node_modules/es5-ext/lib/Function/|node_modules/ndb/spec/espionage/lib/|node_modules/deferred/node_modules/es5-ext/test/Date/|node_modules/ndb/spec/fixtures/|node_modules/ndb/spec/underscore/test/vendor/|node_modules/deferred/node_modules/es5-ext/lib/Date/year/|node_modules/ndb/spec/jspec/templates/rails/|node_modules/deferred/test/join/|node_modules/deferred/node_modules/es5-ext/lib/Date/day/|node_modules/ndb/spec/jspec/templates/node/lib/|node_modules/ndb/spec/espionage/spec/|node_modules/deferred/node_modules/es5-ext/test/String/|node_modules/deferred/node_modules/es5-ext/lib/Object/|node_modules/ndb/spec/jspec/lib/|node_modules/deferred/node_modules/clock/node_modules/event-emitter/lib/|node_modules/couch-client/|node_modules/deferred/node_modules/es5-ext/test/List/|node_modules/ndb/spec/jspec/spec/support/|node_modules/ndb/spec/jspec/templates/node/spec/|node_modules/couch-client/lib/|node_modules/ndb/spec/jspec_dot_reporter/|node_modules/ndb/spec/jspec/templates/default/spec/|node_modules/deferred/node_modules/clock/node_modules/event-emitter/test/|node_modules/deferred/node_modules/es5-ext/test/Object/|node_modules/deferred/node_modules/es5-ext/lib/Array/|node_modules/deferred/node_modules/es5-ext/lib/Number/|node_modules/deferred/lib/|node_modules/deferred/node_modules/es5-ext/test/Number/|node_modules/ndb/spec/unit/event_listeners/|node_modules/ndb/lib/|node_modules/ndb/lib/ndb/commands/|node_modules/ndb/spec/underscore/|node_modules/deferred/node_modules/es5-ext/lib/|node_modules/deferred/node_modules/es5-ext/test/Date/month/|node_modules/deferred/node_modules/es5-ext/lib/List/|node_modules/deferred/lib/join/|node_modules/ndb/spec/unit/option_parser/|node_modules/deferred/node_modules/es5-ext/lib/Object/plain/|node_modules/ndb/lib/vendor/js-opts/|node_modules/ndb/spec/unit/commands/|node_modules/deferred/node_modules/es5-ext/lib/String/|node_modules/ndb/spec/espionage/spec/espionage/|node_modules/deferred/node_modules/es5-ext/lib/Date/" kind="src" path="setup"/>
+	<classpathentry excluding="lib/" kind="src" path="setup/node_modules/couch-client"/>
+	<classpathentry kind="src" path="setup/node_modules/couch-client/lib"/>
+	<classpathentry excluding="join/" kind="src" path="setup/node_modules/deferred/lib"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/lib/join"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/clock/lib"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/clock/node_modules/event-emitter/lib"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/clock/node_modules/event-emitter/test"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/clock/test"/>
+	<classpathentry excluding="Date/month/|List/sort/|String/convert/|Function/|Date/year/|Date/day/|Object/|Array/|Number/|List/|Object/plain/|String/|Date/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib-bug/Object/defineProperty"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Array"/>
+	<classpathentry excluding="month/|year/|day/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Date"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Date/day"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Date/month"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Date/year"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Function"/>
+	<classpathentry excluding="sort/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/List"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/List/sort"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Number"/>
+	<classpathentry excluding="plain/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Object"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/Object/plain"/>
+	<classpathentry excluding="convert/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/String"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/lib/String/convert"/>
+	<classpathentry excluding="Date/year/|Function/|Object/plain/|Date/day/|List/sort/|Array/|String/convert/|Date/|String/|List/|Object/|Number/|Date/month/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Array"/>
+	<classpathentry excluding="year/|day/|month/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Date"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Date/day"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Date/month"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Date/year"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Function"/>
+	<classpathentry excluding="sort/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/List"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/List/sort"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Number"/>
+	<classpathentry excluding="plain/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Object"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/Object/plain"/>
+	<classpathentry excluding="convert/" kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/String"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/node_modules/es5-ext/test/String/convert"/>
+	<classpathentry excluding="join/" kind="src" path="setup/node_modules/deferred/test"/>
+	<classpathentry kind="src" path="setup/node_modules/deferred/test/join"/>
+	<classpathentry excluding="ndb/|ndb/commands/|vendor/js-opts/" kind="src" path="setup/node_modules/ndb/lib"/>
+	<classpathentry excluding="commands/" kind="src" path="setup/node_modules/ndb/lib/ndb"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/lib/ndb/commands"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/lib/vendor/js-opts"/>
+	<classpathentry excluding="jspec/templates/node/spec/unit/|jspec/templates/rails/unit/|underscore/test/|jspec/templates/default/spec/unit/|jspec/spec/unit/|jspec/spec/|unit/|jspec/templates/default/lib/|espionage/lib/|fixtures/|underscore/test/vendor/|jspec/templates/rails/|jspec/templates/node/lib/|espionage/spec/|jspec/lib/|jspec/spec/support/|jspec/templates/node/spec/|jspec_dot_reporter/|jspec/templates/default/spec/|unit/event_listeners/|underscore/|unit/option_parser/|unit/commands/|espionage/spec/espionage/" kind="src" path="setup/node_modules/ndb/spec"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/espionage/lib"/>
+	<classpathentry excluding="espionage/" kind="src" path="setup/node_modules/ndb/spec/espionage/spec"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/espionage/spec/espionage"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/fixtures"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec_dot_reporter"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/lib"/>
+	<classpathentry excluding="unit/|support/" kind="src" path="setup/node_modules/ndb/spec/jspec/spec"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/spec/support"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/spec/unit"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/templates/default/lib"/>
+	<classpathentry excluding="unit/" kind="src" path="setup/node_modules/ndb/spec/jspec/templates/default/spec"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/templates/default/spec/unit"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/templates/node/lib"/>
+	<classpathentry excluding="unit/" kind="src" path="setup/node_modules/ndb/spec/jspec/templates/node/spec"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/templates/node/spec/unit"/>
+	<classpathentry excluding="unit/" kind="src" path="setup/node_modules/ndb/spec/jspec/templates/rails"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/jspec/templates/rails/unit"/>
+	<classpathentry excluding="test/|test/vendor/" kind="src" path="setup/node_modules/ndb/spec/underscore"/>
+	<classpathentry excluding="vendor/" kind="src" path="setup/node_modules/ndb/spec/underscore/test"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/underscore/test/vendor"/>
+	<classpathentry excluding="event_listeners/|option_parser/|commands/" kind="src" path="setup/node_modules/ndb/spec/unit"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/unit/commands"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/unit/event_listeners"/>
+	<classpathentry kind="src" path="setup/node_modules/ndb/spec/unit/option_parser"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
